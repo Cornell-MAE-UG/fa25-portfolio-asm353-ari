@@ -35,8 +35,11 @@ ANSYS Normal Strain Contours (in Strain Gauge Direction):
 ANSYS Maximum Principal Stress Contours:
 ![ANSYS Maximum Principal Stress Contours]({{ "/assets/images/torquewrenchstresscontours.png" | relative_url }}){: style="width: 450px; display: block; margin: 1rem auto;"}
 
-Maximum Normal Stress: 77.360 ksi at knob. 32.5 ksi in bar
-Strain @ Strain Gauge: 1053 µε
-Deflection @ Load Point: .37224''
-Torque wrench sensitivity in mV/V using strains: 1.05 mV/V
+Maximum Normal Stress: 77.360 ksi at knob. 32.5 ksi in bar <br>
+Strain @ Strain Gauge: 1053 µε <br>
+Deflection @ Load Point: .37224'' <br>
+<br>
+Torque wrench sensitivity in mV/V using strains: 1.05 mV/V <br>
+
+For this torque wrench design, I selected a foil strain gauge (OMEGA SGD‑1‑5‑120‑LY11) to measure strain on the rectangular arm. The gauge measures 0.5 inches long by 0.125 inches wide, which provides adequate coverage along the 0.6-inch width of the arm while leaving sufficient space for proper adhesive bonding. The gauge is mounted along the length of the arm to capture bending strains in the primary load path. To ensure reliable attachment and accurate strain readings, the gauge is bonded to the steel surface using OMEGA SG496 cold-curing strain-gage adhesive, which offers strong adhesion and minimal creep under load. 
 
