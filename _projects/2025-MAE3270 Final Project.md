@@ -6,6 +6,7 @@ technologies: [Autodesk Inventor, ANSYS, MATLAB]
 image: /assets/images/torquewrenchcad.png
 ---
 
+<br><br><br><br><br><br><br><br>
 For MAE 3270, Mechanics of Materials, we have a final project where we have to work on designing a torque wrench. This means doing hand calcs, making a CAD, and doing ANSYS. 
 
 
