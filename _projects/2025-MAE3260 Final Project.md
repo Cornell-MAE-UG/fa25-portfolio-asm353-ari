@@ -1,25 +1,14 @@
 ---
 layout: project
-title: MAE 
-description: Advanced CAD Project
-technologies: [Autodesk Fusion]
-image: /assets/images/radio-machine-cad.jpg
+title: MAE 3260 Final Project
+description: Massage Gun Dissection
+technologies: [MATLAB]
+image: /assets/images/massagegun.jpg
 ---
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+Our project focused on the dissection and engineering analysis of a multifunction massage gun, selected for its interesting mechanical components and therapeutic applications. The device included three interchangeable massage heads, a foam ball, a three-pronged textured plastic head, and a flat metal attachment—allowing users to customize the type of mechanical stimulation. Using a slow-motion camera, we observed that the heads move in a circular, sinusoidal pattern rather than simple linear oscillation. The user interface consists of a single multifunction button that adjusts motor speed between 1800 and 3600 rpm, with the motor driving an off-center rotating disk that converts rotational motion into the reciprocating vibrations felt by the user. Internal supports stabilize the system, ensuring proper alignment and reducing unwanted vibration. We modeled the massage gun as a spring-mass-damper system, derived its block diagram, transfer function, and corresponding ODE, and then used MATLAB to simulate its behavior. Using the measured period (0.0333 s), peak-to-peak amplitude (5 mm), and estimated input force (47.88 N), we calculated the effective mass and stiffness of the system. With all of this, we were able to plot the expected results in MATLAB. Overall, this analysis provided insight into the mechanical design, dynamic behavior, and potential for modeling and simulating therapeutic massage devices. Attached, you will find the link to the full report. 
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+https://docs.google.com/document/d/1Gec0Q-9FAcIwClV7D0guv1jb1fTbKisfBqPQ8U1_U2o/edit?usp=sharing
 
-![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
-I was inspired by this old radio when I made this rendering:
-
-![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
