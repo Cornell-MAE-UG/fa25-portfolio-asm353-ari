@@ -6,16 +6,13 @@ technologies: [Autodesk Inventor, ANSYS, MATLAB]
 image: /assets/images/torquewrenchcad.png
 ---
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 For MAE 3270, Mechanics of Materials, we have a final project where we have to work on designing a torque wrench. This means doing hand calcs, making a CAD, and doing ANSYS. 
 
+The torque-arm assembly consists of two primary components: a rectangular arm and a square-section knob. The arm dimensions are 0.3 inches by 0.6 inches in cross section with a length of 16 inches, while the knob measures 0.375 inches by 0.375 inches by 0.5 inches. These dimensions define the load path and establish the stiffness distribution used throughout the subsequent analysis. The CAD is shown at the top, and below as well. 
 
 ![Torque Wrench CAD]({{ "/assets/images/torquewrenchcad.png" | relative_url }}){: style="width: 450px; display: block; margin: 1rem auto;"}
 
-
-
-
-The torque-arm assembly consists of two primary components: a rectangular arm and a square-section knob. The arm dimensions are 0.3 inches by 0.6 inches in cross section with a length of 16 inches, while the knob measures 0.375 inches by 0.375 inches by 0.5 inches. These dimensions define the load path and establish the stiffness distribution used throughout the subsequent analysis.
 
 Material: Low-alloy steel 4330V, quenched and tempered
 - Young’s modulus: 229.75 × 10^6 psi
