@@ -1,25 +1,37 @@
 ---
 layout: project
-title: Radio CAD Rendering
-description: Advanced CAD Project
-technologies: [Autodesk Fusion]
-image: /assets/images/radio-machine-cad.jpg
+title: MAE 3270 Final Project
+description: Torque Wrench Analysis
+technologies: [Autodesk Inventor, ANSYS, MATLAB]
+image: /assets/images/torquewrenchcad.png
 ---
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+For MAE 3270, Mechanics of Materials, we have a final project where we have to work on designing a torque wrench. This means doing hand calcs, making a CAD, and doing ANSYS. 
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+![Torque Wrench CAD]({{ "/assets/images/torquewrenchcad.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 
-![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+The torque-arm assembly consists of two primary components: a rectangular arm and a square-section knob. The arm dimensions are 0.3 inches by 0.6 inches in cross section with a length of 16 inches, while the knob measures 0.375 inches by 0.375 inches by 0.5 inches. These dimensions define the load path and establish the stiffness distribution used throughout the subsequent analysis.
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+Material: Low-alloy steel 4330V, quenched and tempered
+- Young’s modulus: 229.75 × 10^6 psi
+- Yield strength: 195 ksi
+- Fracture toughness, K_IC: 90.95 ksi√in
+- Fatigue strength at 10^6 cycles: 110 × 10^3 psi
+- Ductile failure mode expected based on material selection
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+ANSYS setup diagram:
+![ANSYS setup diagram]({{ "/assets/images/torquewrenchansyssetup.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 
-I was inspired by this old radio when I made this rendering:
 
-![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}
+ANSYS Normal Strain Contours (in Strain Gauge Direction):
+![ANSYS Normal Strain Contours (in Strain Gauge Direction)]({{ "/assets/images/torquewrenchstraincontours.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+ANSYS Maximum Principal Stress Contours:
+![ANSYS Maximum Principal Stress Contours]({{ "/assets/images/torquewrenchstresscontours.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+
+Maximum Normal Stress: 77.360 ksi at knob. 32.5 ksi in bar
+Strain @ Strain Gauge: 1053 µε
+Deflection @ Load Point: .37224''
+Torque wrench sensitivity in mV/V using strains: 1.05 mV/V
+
