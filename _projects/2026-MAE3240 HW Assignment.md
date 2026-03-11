@@ -12,4 +12,4 @@ This assignment helped reinforce the fundamental mechanisms of heat transfer and
 
 The assignment is useful because these types of thermal analyses are directly relevant to real engineering systems. Many mechanical components, such as electronics, engines, or energy systems, rely on effective heat dissipation to operate safely and efficiently. Learning how to estimate temperatures, heat fluxes, and dominant transfer mechanisms allows engineers to design better cooling strategies and prevent overheating. Developing these analytical skills will be valuable in future engineering work where thermal management and system performance are closely connected.
 
-[Download my HW Assignment here!]({{ "/assets/mae3240-hw1.pdf" | relative_url }}) in PDF format.
+[Download my HW Assignment here!]({{ "/assets/mae3240-hw1.pdf" relative_url }}) in PDF format.
