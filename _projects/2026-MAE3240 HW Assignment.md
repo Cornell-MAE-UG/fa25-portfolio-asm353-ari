@@ -1,43 +1,15 @@
 ---
 layout: project
-title: MAE 3270 Final Project
-description: Torque Wrench Analysis
-technologies: [Autodesk Inventor, ANSYS, MATLAB]
-image: /assets/images/torquewrenchcad.png
+title: MAE 3240 HW Assignment
+description: HW#1 Analysis
+technologies: [N/A]
+image: /assets/images/heattransferhw.jpeg
 ---
 
 <br><br><br><br><br><br><br><br><br><br>
-For MAE 3270, Mechanics of Materials, we have a final project where we have to work on designing a torque wrench. This means doing hand calcs, making a CAD, and doing ANSYS. 
 
-The torque-arm assembly consists of two primary components: a rectangular arm and a square-section knob. The arm dimensions are 0.3 inches by 0.6 inches in cross section with a length of 16 inches, while the knob measures 0.375 inches by 0.375 inches by 0.5 inches. These dimensions define the load path and establish the stiffness distribution used throughout the subsequent analysis. The CAD is shown at the top, and below as well. 
+This assignment helped reinforce the fundamental mechanisms of heat transfer and how they are applied in practical engineering problems. In particular, working through the problems required identifying the dominant mode of heat transfer in different physical situations and applying the appropriate governing equations. For example, I had to analyze situations involving both convection and radiation, and use relationships such as Newton’s law of cooling and the Stefan–Boltzmann equation. This process helped me better understand how assumptions about the environment, such as surrounding temperature or surface properties, influence heat transfer behavior and the resulting temperatures of components.
 
-![Torque Wrench CAD]({{ "/assets/images/torquewrenchcad.png" | relative_url }}){: style="width: 450px; display: block; margin: 1rem auto;"}
+The assignment is useful because these types of thermal analyses are directly relevant to real engineering systems. Many mechanical components, such as electronics, engines, or energy systems, rely on effective heat dissipation to operate safely and efficiently. Learning how to estimate temperatures, heat fluxes, and dominant transfer mechanisms allows engineers to design better cooling strategies and prevent overheating. Developing these analytical skills will be valuable in future engineering work where thermal management and system performance are closely connected.
 
-
-Material: Low-alloy steel 4330V, quenched and tempered
-- Young’s modulus: 229.75 × 10^6 psi
-- Yield strength: 195 ksi
-- Fracture toughness, K_IC: 90.95 ksi√in
-- Fatigue strength at 10^6 cycles: 110 × 10^3 psi
-- Ductile failure mode expected based on material selection
-
-ANSYS setup diagram:
-![ANSYS setup diagram]({{ "/assets/images/torquewrenchansyssetup.png" | relative_url }}){: style="width: 450px; display: block; margin: 1rem auto;"}
-
-
-
-ANSYS Normal Strain Contours (in Strain Gauge Direction):
-![ANSYS Normal Strain Contours (in Strain Gauge Direction)]({{ "/assets/images/torquewrenchstraincontours.png" | relative_url }}){: style="width: 450px; display: block; margin: 1rem auto;"}
-
-
-ANSYS Maximum Principal Stress Contours:
-![ANSYS Maximum Principal Stress Contours]({{ "/assets/images/torquewrenchstresscontours.png" | relative_url }}){: style="width: 450px; display: block; margin: 1rem auto;"}
-
-Maximum Normal Stress: 77.360 ksi at knob. 32.5 ksi in bar <br>
-Strain @ Strain Gauge: 1053 µε <br>
-Deflection @ Load Point: .37224'' <br>
-<br>
-Torque wrench sensitivity in mV/V using strains: 1.05 mV/V <br>
-
-For this torque wrench design, I selected a foil strain gauge (OMEGA SGD‑1‑5‑120‑LY11) to measure strain on the rectangular arm. The gauge measures 0.5 inches long by 0.125 inches wide, which provides adequate coverage along the 0.6-inch width of the arm while leaving sufficient space for proper adhesive bonding. The gauge is mounted along the length of the arm to capture bending strains in the primary load path. To ensure reliable attachment and accurate strain readings, the gauge is bonded to the steel surface using OMEGA SG496 cold-curing strain-gage adhesive, which offers strong adhesion and minimal creep under load. 
-
+[Download my HW Assignment here!]({{ "/assets/MAE 3240 HW #1 v2 (1).pdf" relative_url }}) in PDF format.
